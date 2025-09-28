@@ -21,19 +21,6 @@
         </nav>
     </header>
 
-    <div id ="frontline-chat-root"></div>
-
-    <script src="https://ai-chat-agent92825.up.railway.app/static/js/main.js"></script>
-    <link rel="stylesheet" href="https://ai-chat-agent92825.up.railway.app/static/css/main.css">
-
-    <script>
-        // Initialize the chat widget
-        window.addEventListener('load', function() {
-            // The React app will automatically render in the div with id="root"
-            // But we need to change the target to our custom div
-        });
-    </script>
-
     <main class="main-content">
         <section class="hero-section">
             <div class="hero-content">
@@ -86,8 +73,10 @@
                         <p>Success Rate</p>
                     </div>
                 </div>
+                
             </div>
         </section>
+        
     </main>
 
     <footer class="footer">
@@ -95,5 +84,20 @@
             <p>&copy; 2025 My Website. All rights reserved. | <a href="contact.html">Contact Us</a></p>
         </div>
     </footer>
+          <iframe 
+            src="https://ai-chat-test.netlify.app" 
+            style="
+                position: fixed;
+                bottom: 20px;
+                right: 20px;
+                width: 400px;
+                height: 600px;
+                border: none;
+                border-radius: 12px;
+                
+                box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+                z-index: 1000;
+            ">
+        </iframe>
 </body>
 </html>
